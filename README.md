@@ -9,5 +9,5 @@ GitHub repository dedicated to our group's project for the Embedded and Industri
 
 + use this software: minicom (run it from the terminal emulator)
 + but before doing that it is necessary to set it up with the command: sudo minicom -s
-+ remember to select the /dev/ttyS0 interface for RS232 communication and the 9600 baud velocity (use **Serial port setup** option)
++ remember to select the /dev/ttyS0 interface for RS232 communication [A key] and the 9600 baud velocity [E key] (use **Serial port setup** option)
 + the key combination CTRL + A is used to access all the commands (CTRL + A + Z to show all of them)
