@@ -22,5 +22,5 @@ difference() {
 }
 
 // PCB reference — temporary position
-%translate([wall + clearance, wall + clearance, wall])
+%translate([0, 0])
     import("pcb.stl");
