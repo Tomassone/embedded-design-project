@@ -22,35 +22,11 @@ The project is a two-node embedded system: **node 1** (an ATmega162 on a custom 
 ## Node 1 — ATmega162 (user interface)
 
 The `source/node1/` folder contains one Atmel Studio project per exercise, showing the
-progression from bare-metal bring-up to the finished firmware:
-
-| Project | What it covers |
-|---|---|
-| `ATmega162_UART_Blink` | First UART bring-up over RS232 |
-| `ATmega162_UART_Blink_Interrupt_RingBuffer` | Interrupt-driven UART with ring buffer |
-| `ATmega162_SRAM_Test` | External SRAM (XMEM) address-space test |
-| `ATMega162_ADC_Test` | External ADC bring-up |
-| `ATmega162_ADC_Joystick` | Reading the joystick through the ADC |
-| `ATmega162_OLED` | OLED driver over SPI |
-| `ATmega162_MenueTest` | Joystick-navigated menu system |
-| `ATmega162_CAN_Test` | CAN controller driver and node-to-node loopback |
-| `ATmega162_CAN_Joystick` | Full game: menus, high scores, CAN messages to node 2 |
+progression from bare-metal bring-up to the finished firmware.
 
 ## Node 2 — ATsam3X8E / Arduino Due (game mechanics)
 
-The `source/node2/` folder contains the same progression for the second node:
-
-| Project | What it covers |
-|---|---|
-| `NODE2CODE` | Base project skeleton (CMSIS/startup, UART, CAN) |
-| `node2_can` | CAN driver and the communication protocol with node 1 |
-| `node2_ex8` | Motor driver with encoder, PID position controller, solenoid |
-| `ATsam3X8E_MotorControl` | Final firmware: PID cart control, servo, solenoid, IR goal detection, non-volatile settings |
-| `ATmega162_final` | Final copy of the node 1 firmware (paired build) |
-
-In-game behaviour: the joystick X axis sets the cart position setpoint (closed-loop PID on
-the motor encoder), the Y axis drives the servo, and the joystick button fires the solenoid.
-The IR sensor on node 2 detects goals and reports the score back to node 1.
+The `source/node2/` folder contains the same progression for the second node.
 
 ## Hardware & resources
 
