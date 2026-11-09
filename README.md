@@ -44,19 +44,6 @@ The `source/node2/` folder contains the same progression for the second node.
 - Node 2 builds with `make` and is flashed over the Arduino Due programming port.
 - Serial console on the lab computers is **minicom** — see the lab notes below.
 
-## Lab notes
-
-### How to log in the "user" profile on the lab computers
-
-+ Use this password: Sanntid15
-
-### How to use the serial communication console
-
-+ Use this software: minicom (run it from the terminal emulator)
-+ Before doing that it is necessary to set it up with the command: `sudo minicom -s`
-+ Remember to select the `/dev/ttyS0` interface for RS232 communication [A key] and the 9600 baud rate [E key] (use the **Serial port setup** option)
-+ The key combination CTRL + A is used to access all the commands (CTRL + A + Z to show all of them)
-
 ## License
 
 This project is licensed under the [GNU GPL v2](LICENSE).
