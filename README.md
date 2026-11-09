@@ -42,7 +42,7 @@ The `source/node2/` folder contains the same progression for the second node.
 
 - Firmware for both nodes is developed in **Atmel Studio** (each `.zip` is a complete project).
 - Node 2 builds with `make` and is flashed over the Arduino Due programming port.
-- Serial console on the lab computers is **minicom** — see the lab notes below.
+- Serial console on the lab computers is **minicom**.
 
 ## License
 
