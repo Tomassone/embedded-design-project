@@ -15,7 +15,7 @@ The project is a two-node embedded system: **node 1** (an ATmega162 on a custom 
 │   ├── schematics_and_pcbs/  # Breadboard schematic (PDF), PCB (STEP + STL)
 │   ├── breadboard_pics/      # Photos of the finished breadboard
 │   ├── videos/               # Demo video of the system
-│   └── docs/                 # Reference book: Designing Embedded Hardware (Catsoulis)
+│   └── docs/                 # Software (PDF) documentation
 └── LICENSE                  # GPL-2.0
 ```
 
